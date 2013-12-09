@@ -31,6 +31,7 @@ TARGET_OTA_ASSERT_DEVICE := melius3g,melius3gxx,i9200,GT-I9200
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_3g_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6
 
 # NFC
 BOARD_HAVE_NFC := true
