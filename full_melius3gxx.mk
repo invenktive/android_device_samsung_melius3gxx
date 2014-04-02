@@ -11,16 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
- 
-#
-# This file is the build configuration for a full Android
-# build for maguro hardware. This cleanly combines a set of
-# device-specific aspects (drivers) with a device-agnostic
-# product configuration (apps). Except for a few implementation
-# details, it only fundamentally contains two inherit-product
-# lines, full and maguro, hence its name.
-#
- 
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
@@ -28,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/melius3gxx/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_meliusltexx
+PRODUCT_NAME := full_melius3gxx
 PRODUCT_DEVICE := melius3gxx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung

@@ -12,26 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#
-# This file sets variables that control the way modules are built
-# thorughout the system. It should not be used to conditionally
-# disable makefiles (the proper mechanism to control what gets
-# included in a build is to use PRODUCT_PACKAGES in a product
-# definition file).
-#
-
-# Inherit from common serrano
+# Inherit from melius-common
 -include device/samsung/melius-common/BoardConfigCommon.mk
 
-# Inherit from the proprietary version
--include vendor/samsung/meliusltexx/BoardConfigVendor.mk
-
 # Assert
-#TARGET_OTA_ASSERT_DEVICE := melius3g,melius3gxx,i9200,GT-I9200
+#TARGET_OTA_ASSERT_DEVICE := melius3g,melius3gxx,I9200,GT-I9200
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_3g_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6
 
 # NFC
 BOARD_HAVE_NFC := true
