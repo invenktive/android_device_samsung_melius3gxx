@@ -23,3 +23,6 @@ TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_3g_defconfig
 
 # NFC
 BOARD_HAVE_NFC := true
+
+# Smart Cover
+BOARD_HAS_EXTENDED_SWITCH := true
