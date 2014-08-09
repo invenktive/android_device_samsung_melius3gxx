@@ -109,7 +109,7 @@
     },
     {
         "remote":       "github",
-        "repository":   "sileshn/proprietary_vendor_samsung-melius",
+        "repository":   "sileshn/proprietary_vendor_samsung",
         "target_path":  "vendor/samsung",
         "revision":     "cm-11.0"
     }
