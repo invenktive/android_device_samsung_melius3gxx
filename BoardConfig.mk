@@ -18,6 +18,9 @@
 # Assert
 TARGET_OTA_ASSERT_DEVICE := melius3g,melius3gxx,I9200,GT-I9200
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
+
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_3g_defconfig
 
