@@ -22,7 +22,7 @@ TARGET_OTA_ASSERT_DEVICE := melius3g,melius3gxx,I9200,GT-I9200
 TARGET_EXTERNAL_APPS = sdcard1
 
 # Default toolchain
-TARGET_GCC_VERSION_EXP := 4.9
+TARGET_GCC_VERSION_EXP := 4.8
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_3g_defconfig
